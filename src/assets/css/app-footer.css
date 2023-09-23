@@ -1,0 +1,31 @@
+footer {
+  background: var(--secondary-background-color);
+  display: flex;
+  gap: 1em;
+  padding: 20px;
+}
+
+.social-media-icons {
+  width: 70%;
+}
+
+.links{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.social-media-icons {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+    color: white;
+    gap: 20px;
+}

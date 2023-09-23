@@ -1,0 +1,45 @@
+.header-dropdown {
+  position: relative;
+}
+
+
+.header-dropdown ul {
+  background-color: white;
+  color: black;
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.header-dropdown li {
+  padding: 0.25em 0.5em;
+}
+
+.header-dropdown a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-dropdown li:hover {
+  background: lightgray;
+}
+
+.header-dropdown:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.search-bar{
+  flex: 1;
+  display: flex;
+}
+
+.search-bar form{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
